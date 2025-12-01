@@ -108,16 +108,18 @@ export default function CaseStudies() {
             </Card>
           </div>
 
-          <div className="text-center mb-16">
-            <Badge className="bg-[#D4AF37]/10 text-[#D4AF37] border-[#D4AF37]/30 mb-4">
-              My Services explained
-            </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-[#D4AF37] to-[#FFEB3B] bg-clip-text text-transparent">
-                AI Powered Solutions Explained
-              </span>
-            </h2>
-          </div>
+          <section className="container mx-auto px-6 pt-20 pb-12">
+            <div className="text-center mb-16">
+              <Badge className="bg-[#D4AF37]/10 text-[#D4AF37] border-[#D4AF37]/30 mb-4">
+                My Services explained
+              </Badge>
+              <h2 className="text-4xl md:text-6xl font-bold mb-4">
+                <span className="bg-gradient-to-r from-[#D4AF37] to-[#FFEB3B] bg-clip-text text-transparent">
+                  AI Powered Solutions Explained
+                </span>
+              </h2>
+            </div>
+          </section>
 
           <div className="grid md:grid-cols-2 gap-8">
             {caseStudies.map((study, index) => (
