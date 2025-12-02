@@ -10,50 +10,44 @@ import Link from 'next/link';
 
 const caseStudies = [
   {
-    title: 'E-Commerce Automation',
-    client: 'Global Retail Brand',
+   
     category: 'AI-Powered Automations',
-    description: 'Automated inventory management and customer service with AI, reducing operational costs by 65% and improving response times by 10x.',
+    description: 'Your routine tasks run automatically — emails, reminders, notes, updates, follow-ups. What used to eat hours every week becomes a background process you never think about. This gives you more output with less effort and creates an immediate ROI. Every task that no longer needs your time frees you to focus on work that generates revenue.',
     results: ['65% cost reduction', '10x faster response', '24/7 operations'],
     image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
-  {
-    title: 'Customer Support Bot',
-    client: 'SaaS Company',
+  { 
+   
     category: 'Intelligent Chatbots',
-    description: 'Deployed multilingual AI chatbot handling 85% of customer inquiries automatically across 12 languages.',
+    description: 'A friendly AI assistant handles customer questions, books appointments, collects details, and responds instantly — day and night. This reduces support workload, increases conversion rates, and makes your business feel more professional. If the bot closes even one extra customer per month, it already generates a big positive ROI.',
     results: ['85% automation rate', '12 languages', '95% satisfaction'],
     image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
-    title: 'Sales Pipeline Automation',
-    client: 'B2B Services',
+  
     category: 'Process Automation',
-    description: 'Streamlined lead qualification and follow-up processes, increasing conversion rates by 180% and saving 40 hours per week.',
+    description: 'Your entire workflow becomes predictable and hands-off. Information moves between tools, steps complete themselves, and errors disappear.This means lower operating costs and higher capacity. Even a simple automation that saves 10 minutes per task can save dozens of hours per month — more than enough to pay for itself many times over.',
     results: ['180% conversion increase', '40 hours saved/week', 'Automated follow-ups'],
     image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
-    title: 'Predictive Analytics Platform',
-    client: 'Financial Services',
+    
     category: 'Predictive Analytics',
-    description: 'Built custom ML models for risk assessment and market prediction, improving forecast accuracy by 300%.',
+    description: 'Your data becomes a decision-making tool. You see patterns early, understand customer behavior, and know what’s working before the competition does.Better decisions directly increase profit, spotting a trend one month earlier or correcting a mistake faster can save thousands. It’s like having a simple dashboard that quietly boosts your business intelligence.',
     results: ['300% accuracy improvement', 'Real-time insights', 'Risk mitigation'],
     image: 'https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
-    title: 'Document Processing System',
-    client: 'Legal Firm',
+   
     category: 'Custom AI Solutions',
-    description: 'Automated document review and extraction, processing 1000+ documents daily with 99.5% accuracy.',
+    description: 'A lightweight tool created specifically for your workflow — automating the exact problem you want solved. It fits your business perfectly because it’s designed around the way you operate. This delivers fast results and real financial value. a small custom AI saving even one hour per week can repay itself instantly and continue producing ROI every month.',
     results: ['1000+ docs/day', '99.5% accuracy', '90% time saved'],
     image: 'https://images.pexels.com/photos/6804581/pexels-photo-6804581.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
-    title: 'AI Strategy Implementation',
-    client: 'Manufacturing Corp',
+    
     category: 'AI Consulting',
-    description: 'Developed comprehensive AI roadmap and implementation strategy, leading to 250% ROI in first year.',
+    description: 'Clear guidance on what to automate, where to start, and how to get results without wasting money. You get a realistic plan, tailored to your current tools, goals, and budget. This avoids trial-and-error and ensures every step you take leads to measurable impact. With the right roadmap, even small AI changes can create outsized returns.',
     results: ['250% ROI', 'Full automation strategy', 'Scalable framework'],
     image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
@@ -116,7 +110,7 @@ export default function CaseStudies() {
               <h2 className="text-4xl md:text-6xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-[#D4AF37] to-[#FFEB3B] bg-clip-text text-transparent">
                   AI Powered Solutions Explained
-                </span>
+                </span> 
               </h2>
             </div>
           </section>
