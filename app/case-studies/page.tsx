@@ -152,14 +152,6 @@ export default function CaseStudies() {
                       </div>
                     ))}
                   </div>
-
-                  <Button
-                    variant="ghost"
-                    className="text-[#D4AF37] hover:text-[#FFEB3B] hover:bg-[#D4AF37]/10 w-full group"
-                  >
-                    View Details
-                    <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </Button>
                 </div>
               </Card>
             ))}
